@@ -31,6 +31,7 @@ export class AppComponent implements OnInit {
     }
 
     isComponentSelected(url: string): boolean {
+        //testing how long to redo a scan
         return this._activatedUrl === url;
     }
 
