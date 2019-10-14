@@ -19,7 +19,7 @@ export class SettingsComponent implements OnInit {
     onDrawerButtonTap(): void {
         const sideDrawer = <RadSideDrawer>app.getRootView();
 
-        if(true){
+        if(1 == 1){
             console.log('some thing');
         };
 
