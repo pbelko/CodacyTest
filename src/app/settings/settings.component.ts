@@ -7,7 +7,7 @@ import * as app from "tns-core-modules/application";
     templateUrl: "./settings.component.html"
 })
 export class SettingsComponent implements OnInit {
-    //some decsription
+    // Some decsription for the test variable
     private test: string;
 
     constructor() {
