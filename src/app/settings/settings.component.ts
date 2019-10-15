@@ -7,7 +7,8 @@ import * as app from "tns-core-modules/application";
     templateUrl: "./settings.component.html"
 })
 export class SettingsComponent implements OnInit {
-    test: string;
+    //some decsription
+    private test: string;
 
     constructor() {
         // Use the component constructor to inject providers.
@@ -17,11 +18,8 @@ export class SettingsComponent implements OnInit {
         // Init your component properties here.
     };
 
-    // @ts-ignore
     onDrawerButtonTap(): void {
         const sideDrawer = <RadSideDrawer>app.getRootView();
-
-        var test1;
 
         if(1 == 1){
 
