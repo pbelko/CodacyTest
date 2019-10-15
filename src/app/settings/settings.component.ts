@@ -18,12 +18,19 @@ export class SettingsComponent implements OnInit {
         // Init your component properties here.
     };
 
+    getRequestString(val: string): string {
+        return "";
+    }
+
     onDrawerButtonTap(): void {
         const sideDrawer = <RadSideDrawer>app.getRootView();
 
         if(1 == 1){
 
         };
+
+        let txtUserId = this.getRequestString("UserId");
+        let txtSQL = "SELECT * FROM Users WHERE UserId = " + txtUserId;
 
         return;
         sideDrawer.showDrawer();
