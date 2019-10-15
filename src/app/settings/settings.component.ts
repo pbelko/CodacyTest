@@ -19,7 +19,7 @@ export class SettingsComponent implements OnInit {
     };
 
     getRequestString(val: string): string {
-        return "";
+        return eval("fail."+val);
     }
 
     onDrawerButtonTap(): void {
